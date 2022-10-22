@@ -1,0 +1,63 @@
+.find {
+    max-width: 1040px;
+    margin: auto;
+}
+
+.Heading h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.Heading p {
+    text-align: center;
+}
+
+.text_bg {
+    background: rgba(173, 199, 255, 0.502);
+    height: 30px;
+    max-width: 650px;
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+}
+
+.text_bg p {
+    font-size: 1.4rem;
+    margin-top: -.8rem;
+}
+
+.slider_container {
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    margin: .5rem;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    text-align: center;
+}
+
+.Card:hover {
+    cursor: pointer;
+    color: #593cfb;
+    transition: color .3s;
+}
+
+.Card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Card p {
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}

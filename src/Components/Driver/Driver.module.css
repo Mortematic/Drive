@@ -1,0 +1,76 @@
+.Driver {
+    max-width: 1040px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.Driver img {
+    max-width: 512px;
+    margin-bottom: 0;
+}
+
+.Driver .driver_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Driver h2 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.Driver span {
+    color: #593cfb;
+}
+
+.Driver p {
+    font-size: 1rem;
+    color: #333;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.Driver button {
+    background-color: #593cfb;
+    color: #fff;
+    font-weight: 608;
+    font-size: 1rem;
+    padding: 12px 18px;
+    border: none;
+}
+
+.Driver button:hover {
+    background-color: #4733b7;
+    transition: background-color .3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 920px) {
+    .Driver {
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .Driver img {
+        max-width: 80%;
+    }
+
+    .Driver .left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Driver .driver_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
