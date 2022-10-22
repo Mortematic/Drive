@@ -1,7 +1,7 @@
 {
   "name": "turo-look-alike",
   "version": "0.1.0",
-  "homepage": "https://mortematic.github.io/turo-look-alike",
+  "homepage": "https://mortematic.github.io/Turo-look-alike",
   "private": true,
   "dependencies": {
     "@fontsource/poppins": "^4.5.10",
